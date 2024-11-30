@@ -11,7 +11,7 @@ const Contact = () => {
         <h2 className="text-red-600 text-4xl font-bold">Get in Touch</h2>
         <p className="text-lg py-2 text-gray-200">
           Get in touch to discuss how I can bring your ideas to life with
-          cutting-edge front-end solutions. Let's build somehting amazing
+          cutting-edge front-end solutions. Let's build something amazing
           together!
         </p>
         <div className="flex py-6 gap-4">
