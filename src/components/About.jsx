@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 const About = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center text-center py-10">
+      <div className="flex flex-col justify-center text-center py-10 px-10">
         <h2 className="text-red-600 text-md font-semibold uppercase">
           About Me
         </h2>
