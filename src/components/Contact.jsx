@@ -27,12 +27,16 @@ const Contact = () => {
         </div>
       </div>
       <div className="mx-auto container grid lg:grid-cols-2 grid-cols-1 items-center gap-6 lg:px-0 px-10">
-        <div classNmae="1st">
+        <div classNmae="1st" data-aos="zoom-in-left" data-aos-duration="1000">
           <div>
             <Image src={email} alt="email" />
           </div>
         </div>
-        <div className="2nd bg-[#f4f1ea] rounded-xl border-2 border-red-600 py-10 px-10 shadow-lg shadow-red-200">
+        <div
+          className="2nd bg-[#f4f1ea] rounded-xl border-2 border-red-600 py-10 px-10 shadow-lg shadow-red-200"
+          data-aos="flip-right"
+          data-aos-duration="1000"
+        >
           <h2 className="text-4xl font-bold capitalize">contact me</h2>
           <div>
             <div className="py-4">

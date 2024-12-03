@@ -22,7 +22,7 @@ const About = () => {
         </p>
       </div>
       <div className="mx-auto container grid lg:grid-cols-2 justify-items-center gap-10 py-10 items-center lg:px-0 px-10">
-        <div className="1st">
+        <div className="1st" data-aos="zoom-in-up" data-aos-duration="1000">
           <h2 className="text-3xl">My Journey</h2>
           <p className="text-lg text-gray-600 py-4">
             As a passionate web developer, I've focused on crafting intuitive
@@ -47,7 +47,11 @@ const About = () => {
             </h2>
           </div>
         </div>
-        <div className="2nd border-2 border-red-200 shadow-lg rounded-2xl py-4">
+        <div
+          className="2nd border-2 border-red-200 shadow-lg rounded-2xl py-4"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
           <h2 className="text-red-600 text-4xl text-center">
             Skills & Expertise
           </h2>

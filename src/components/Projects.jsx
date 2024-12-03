@@ -22,7 +22,11 @@ const Projects = () => {
           </h2>
         </div>
         <div className="mx-auto container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-items-center gap-6 lg:px-0 px-10">
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://stream-rose.vercel.app">
               <Image src={streamit} alt="projects" className="rounded-2xl" />
             </Link>
@@ -49,7 +53,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://appointment-olive.vercel.app">
               <Image src={doctors} alt="projects" className="rounded-2xl" />
             </Link>
@@ -78,7 +86,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://e-shopping-beta.vercel.app">
               <Image src={eshop} alt="projects" className="rounded-2xl" />
             </Link>
@@ -106,7 +118,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://burgers-pi.vercel.app">
               <Image src={burgers} alt="projects" className="rounded-2xl" />
             </Link>
@@ -133,7 +149,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://branded-mayor.vercel.app">
               <Image src={branded} alt="projects" className="rounded-2xl" />
             </Link>
@@ -159,7 +179,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://real-estate-mayor.vercel.app">
               <Image src={estate} alt="projects" className="rounded-2xl" />
             </Link>
@@ -185,7 +209,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://eatright-restaurant.vercel.app">
               <Image src={eatright} alt="projects" className="rounded-2xl" />
             </Link>
@@ -211,7 +239,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://king-mayor.github.io/seating1/">
               {" "}
               <Image src={sunon} alt="projects" className="rounded-2xl" />
@@ -239,7 +271,11 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+          <div
+            className="1st bg-pink-100 border-2 border-red-200 rounded-2xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <Link href="https://movie-finder-mayor.vercel.app">
               <Image src={extraction} alt="projects" className="rounded-2xl" />
             </Link>
