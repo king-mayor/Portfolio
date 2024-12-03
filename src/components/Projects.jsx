@@ -160,6 +160,32 @@ const Projects = () => {
             </div>
           </div>
           <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
+            <Link href="https://real-estate-mayor.vercel.app">
+              <Image src={estate} alt="projects" className="rounded-2xl" />
+            </Link>
+            <div className="p-4">
+              <h2 className="text-2xl capitalize font-semibold">Real Estate</h2>
+              <p className="text-lg py-4">
+                A real estate landing page website with dark mode integrated. It
+                gives a detailed description of company services and
+                experiences.
+              </p>
+              <div className="flex gap-2">
+                <Link href="https://real-estate-mayor.vercel.app">
+                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                    live preview
+                  </button>
+                </Link>
+                <button className="flex items-center text-white bg-black py-2 px-4 font-semibold text-md capitalize rounded-lg gap-2">
+                  <span>
+                    <FaGithubSquare />
+                  </span>
+                  github link
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="1st bg-pink-100 border-2 border-red-200 rounded-2xl">
             <Link href="https://eatright-restaurant.vercel.app">
               <Image src={eatright} alt="projects" className="rounded-2xl" />
             </Link>
