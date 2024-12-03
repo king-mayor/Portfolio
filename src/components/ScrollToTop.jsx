@@ -13,14 +13,14 @@ const ScrollToTop = () => {
       }
     });
   }, []);
-  useEffect(() => {
-    const handleToggle = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    };
-  }, []);
+
+  const handleToggle = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div>
       <div>
