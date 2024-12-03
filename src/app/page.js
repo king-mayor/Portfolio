@@ -9,7 +9,7 @@
 // import Testimonial from '@/components/Testimonial'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import React,{useEffect, lazy} from 'react'
+import React,{useEffect, lazy, Suspense} from 'react'
     const Hero = lazy(() => import('@/components/Hero'));
     const Contact = lazy(() => import('@/components/Contact'));
     const Footer = lazy(() => import('@/components/Footer'));
@@ -26,6 +26,7 @@ const Home = () => {
     
   return (
     <div className="overflow-x-hidden">
+   <Suspense fallback={<div className="flex justify-center items-center text-4xl text-red-600">loading...</div>}>
    <Navbar/>
    <Hero/>
    <About/>
@@ -34,6 +35,8 @@ const Home = () => {
    <Contact/>
    <Footer/>
    <ScrollToTop/>
+   </Suspense>
+   
     </div>
   )
 }
