@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
 import { useEffect, useState } from "react";
@@ -12,12 +13,14 @@ const ScrollToTop = () => {
       }
     });
   }, []);
-  const handleToggle = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+  useEffect(() => {
+    const handleToggle = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+  }, []);
   return (
     <div>
       <div>
