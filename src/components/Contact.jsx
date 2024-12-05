@@ -39,34 +39,41 @@ const Contact = () => {
         >
           <h2 className="text-4xl font-bold capitalize">contact me</h2>
           <div>
-            <div className="py-4">
-              <h2 className="text-md">Name</h2>
-              <input
-                type="text"
-                placeholder="Full Name"
-                className="pl-2 w-full py-2"
-              />
-            </div>
-            <div className="py-4">
-              <h2>Email</h2>
-              <input
-                type="email"
-                placeholder="Email"
-                className="pl-2 w-full py-2"
-              />
-            </div>
-            <div className="py-4">
-              <h2>Message</h2>
-              <textarea
-                name=""
-                id=""
-                placeholder="Enter your message"
-                className="pl-2 w-full p-6"
-              ></textarea>
-            </div>
-            <button className="text-gray-200 bg-red-600 cursor-pointer py-2 px-6 rounded-xl capitalize my-6">
-              send message
-            </button>
+            <form action="https://getform.io/f/bqoovzvb" method="POST">
+              <div className="py-4">
+                <h2 className="text-md">Name</h2>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  className="pl-2 w-full py-2"
+                  name="name"
+                />
+              </div>
+              <div className="py-4">
+                <h2>Email</h2>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="pl-2 w-full py-2"
+                  name="email"
+                />
+              </div>
+              <div className="py-4">
+                <h2>Message</h2>
+                <textarea
+                  name="message"
+                  id=""
+                  placeholder="Enter your message"
+                  className="pl-2 w-full p-6"
+                ></textarea>
+              </div>
+              <button
+                className="text-gray-200 bg-red-600 cursor-pointer py-2 px-6 rounded-xl capitalize my-6"
+                type="submit"
+              >
+                send message
+              </button>
+            </form>
           </div>
         </div>
       </div>
