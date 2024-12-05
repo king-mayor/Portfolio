@@ -34,7 +34,7 @@ const Testimonial = () => {
             Testimonials
           </h2>
         </div>
-        <div className="py-10 px-10 overflow-x-hidden overflow-y-hidden">
+        <div className="py-20 px-10 overflow-x-hidden overflow-y-hidden">
           <Carousel
             responsive={responsive}
             infinite={true}
@@ -44,7 +44,7 @@ const Testimonial = () => {
             showDots={false}
             arrows={false}
           >
-            <div className="1st border-2 border-gray-200 p-4 mx-2">
+            <div className="1st border-2 border-gray-200 p-4 mx-2 rounded-xl shadow-md shadow-pink-600">
               <div className="flex">
                 <p className="text-2xl font-bold">
                   <FaStar />
@@ -82,7 +82,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <div className="1st border-2 border-gray-200 p-4 mx-2">
+            <div className="1st border-2 border-gray-200 p-4 mx-2 rounded-xl shadow-md shadow-pink-600">
               <div className="flex">
                 <p className="text-2xl font-bold">
                   <FaStar />
@@ -120,7 +120,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <div className="1st border-2 border-gray-200 p-4 mx-2">
+            <div className="1st border-2 border-gray-200 p-4 mx-2 rounded-xl shadow-md shadow-pink-600">
               <div className="flex">
                 <p className="text-2xl font-bold">
                   <FaStar />
@@ -158,7 +158,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <div className="1st border-2 border-gray-200 p-4 mx-2">
+            <div className="1st border-2 border-gray-200 p-4 mx-2 rounded-xl shadow-md shadow-pink-600">
               <div className="flex">
                 <p className="text-2xl font-bold">
                   <FaStar />
@@ -196,7 +196,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <div className="1st border-2 border-gray-200 p-4 mx-2">
+            <div className="1st border-2 border-gray-200 p-4 mx-2 rounded-xl shadow-md shadow-pink-600">
               <div className="flex">
                 <p className="text-2xl font-bold">
                   <FaStar />
