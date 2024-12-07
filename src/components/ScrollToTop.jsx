@@ -26,7 +26,7 @@ const ScrollToTop = () => {
       <div>
         {menu && (
           <div className="fixed right-5 bottom-5" onClick={handleToggle}>
-            <FaArrowCircleUp className="text-5xl font-bold text-red-600 cursor-pointer" />
+            <FaArrowCircleUp className="text-5xl font-bold text-red-600 hover:text-black cursor-pointer" />
           </div>
         )}
       </div>

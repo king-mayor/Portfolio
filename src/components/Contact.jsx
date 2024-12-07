@@ -68,7 +68,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <button
-                className="text-gray-200 bg-red-600 cursor-pointer py-2 px-6 rounded-xl capitalize my-6"
+                className="text-gray-200 bg-red-600 hover:bg-black cursor-pointer py-2 px-6 rounded-xl capitalize my-6"
                 type="submit"
               >
                 send message
