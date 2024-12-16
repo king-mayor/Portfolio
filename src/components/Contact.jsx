@@ -15,13 +15,13 @@ const Contact = () => {
           together!
         </p>
         <div className="flex py-6 gap-4">
-          <p className="text-red-600 text-3xl">
+          <p className="text-red-600 text-3xl cursor-pointer hover:text-black">
             <FaFacebookSquare />
           </p>
-          <p className="text-red-600 text-3xl">
+          <p className="text-red-600 text-3xl cursor-pointer hover:text-black">
             <FaInstagram />
           </p>
-          <p className="text-red-600 text-3xl">
+          <p className="text-red-600 text-3xl cursor-pointer hover:text-black">
             <FaLinkedin />
           </p>
         </div>
