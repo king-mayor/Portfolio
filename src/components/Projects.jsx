@@ -39,7 +39,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://stream-rose.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600 hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -72,7 +72,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://appointment-olive.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -104,7 +104,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://e-shopping-beta.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -136,7 +136,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://burgers-pi.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -166,7 +166,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://branded-mayor.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -196,7 +196,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://real-estate-mayor.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -226,7 +226,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://eatright-restaurant.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -245,7 +245,6 @@ const Projects = () => {
             data-aos-duration="1000"
           >
             <Link href="https://king-mayor.github.io/seating1/">
-              {" "}
               <Image src={sunon} alt="projects" className="rounded-2xl" />
             </Link>
             <div className="p-4">
@@ -258,7 +257,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://king-mayor.github.io/seating1/">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
@@ -291,7 +290,7 @@ const Projects = () => {
               </p>
               <div className="flex gap-2">
                 <Link href="https://movie-finder-mayor.vercel.app">
-                  <button className="text-white bg-red-600 py-2 px-4 rounded-lg text-md font-semibold capitalize">
+                  <button className="text-white bg-red-600  hover:bg-red-800 py-2 px-4 rounded-lg text-md font-semibold capitalize">
                     live preview
                   </button>
                 </Link>
