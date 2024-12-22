@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div>
-      <div className="flex lg:justify-around lg:flex-row flex-col-reverse items-center px-10 gap-10 py-20">
+      <div className="flex lg:justify-around lg:flex-row flex-col items-center px-10 gap-10 py-20">
         <div className="1st" data-aos="zoom-in-up" data-aos-duration="1000">
           <div className="py-4">
             <h2 className="lg:text-6xl text-4xl font-bold">Hi There,</h2>
