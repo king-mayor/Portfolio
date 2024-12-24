@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="py-4">
             <h2 className="lg:text-6xl text-4xl font-bold">Hi There,</h2>
             <h2 className="lg:text-6xl text-4xl font-bold">
-              I'm Mayor <span className="text-red-600">Odegbaro</span>
+              I'm Mayor <span className="text-red-600">Odegbaro!</span>
             </h2>
           </div>
 
